@@ -8,8 +8,11 @@ fn main() {
     };
 
     let black = Color(0, 0, 0);
+
+    println!("user2 is {:?}", user2);
 }
 
+#[derive(Debug)]
 struct User {
     username: String,
     email: String,
